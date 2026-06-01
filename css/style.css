@@ -49,16 +49,16 @@ h3 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: clamp(1.8rem, 3vw, 3rem);
   margin-bottom: 1rem;
 }
 
 p {
-  margin-bottom: 1rem;
+  font-size: clamp(1rem, 1.5vw, 1.1rem);
 }
 
 a {
@@ -129,6 +129,31 @@ nav ul {
   max-width: 600px;
 }
 
+.hero-content {
+  display: grid;
+  gap: 2rem;
+}
+
+.profile-placeholder {
+  width: 220px;
+  height: 220px;
+
+  margin: auto;
+
+  border-radius: 50%;
+
+  background-color: var(--secondary-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3rem;
+  font-weight: bold;
+
+  font-family: var(--font-heading);
+}
+
 button {
   width: fit-content;
 
@@ -156,4 +181,30 @@ button:hover {
 footer {
   text-align: center;
   padding: 2rem;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (min-width: 768px) {
+  section {
+    padding: 5rem 3rem;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+}
+
+/* =========================
+   DESKTOP
+========================= */
+
+@media (min-width: 1024px) {
+  .hero-content {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
 }
