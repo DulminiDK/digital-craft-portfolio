@@ -175,44 +175,37 @@ nav ul {
 }
 
 /* =========================
+   SKILLS
+========================= */
+
+.skills-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.skill-card {
+  background: var(--white);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+}
+
+.skill-card h3 {
+  margin-bottom: 0.75rem;
+}
+
+/* =========================
    FOOTER
 ========================= */
 
 footer {
   text-align: center;
   padding: 2rem;
-}
-
-/* =========================
-   TABLET
-========================= */
-
-@media (min-width: 768px) {
-  section {
-    padding: 5rem 3rem;
-  }
-
-  .menu-toggle {
-    display: none;
-  }
-
-  .nav-links {
-    position: static;
-
-    display: flex;
-
-    flex-direction: row;
-
-    width: auto;
-
-    background: none;
-
-    padding: 0;
-
-    box-shadow: none;
-
-    gap: 1.5rem;
-  }
 }
 
 .menu-toggle {
@@ -251,6 +244,35 @@ footer {
 }
 
 /* =========================
+   TABLET
+========================= */
+
+@media (min-width: 768px) {
+  section {
+    padding: 5rem 3rem;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-links {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background: none;
+    padding: 0;
+    box-shadow: none;
+    gap: 1.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* =========================
    DESKTOP
 ========================= */
 
@@ -258,5 +280,9 @@ footer {
   .hero-content {
     grid-template-columns: 1fr 1fr;
     align-items: center;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
