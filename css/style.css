@@ -112,6 +112,12 @@ nav ul {
   display: none;
 }
 
+.container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+
 /* =========================
    HERO
 ========================= */
@@ -154,24 +160,27 @@ nav ul {
   font-family: var(--font-heading);
 }
 
-#hero button {
+.hero-btn {
   width: fit-content;
-
   padding: 0.8rem 1.5rem;
-
   border: none;
   border-radius: 8px;
-
   background-color: var(--primary-color);
   color: var(--white);
-
   cursor: pointer;
-
   transition: var(--transition);
+  align-self: flex-start;
+  display: inline-block;
 }
 
-#hero button:hover {
+.hero-btn:hover {
   transform: translateY(-2px);
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 /* =========================
@@ -262,6 +271,58 @@ nav ul {
 }
 
 /* =========================
+   EDUCATION
+========================= */
+
+.education-card {
+  background: var(--white);
+
+  padding: 1.5rem;
+
+  border-radius: 12px;
+
+  box-shadow: var(--shadow);
+}
+
+.education-card h4 {
+  color: var(--primary-color);
+
+  margin-bottom: 1rem;
+}
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact-container {
+  display: grid;
+
+  gap: 1rem;
+}
+
+.contact-card {
+  background: var(--white);
+
+  padding: 1.5rem;
+
+  border-radius: 12px;
+
+  box-shadow: var(--shadow);
+
+  text-align: center;
+
+  font-weight: 600;
+
+  transition: var(--transition);
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+
+  background-color: var(--secondary-color);
+}
+
+/* =========================
    FOOTER
 ========================= */
 
@@ -335,6 +396,10 @@ footer {
 
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
