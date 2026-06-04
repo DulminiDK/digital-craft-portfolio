@@ -9,21 +9,13 @@ Built following responsive web design principles using semantic HTML, CSS Grid, 
 ## 🚀 Live Features
 
 ✅ Responsive Design (Mobile, Tablet, Desktop)
-
 ✅ Mobile-First Development
-
 ✅ Semantic HTML Structure
-
 ✅ CSS Grid & Flexbox Layouts
-
 ✅ Responsive Navigation Menu
-
 ✅ Modern UI Design
-
 ✅ Smooth Scrolling Navigation
-
 ✅ Project Showcase Section
-
 ✅ Professional Experience Timeline
 
 ---
@@ -64,24 +56,6 @@ The project follows modern frontend development practices with a focus on access
 * Git
 * GitHub
 * Visual Studio Code
-
----
-
-## 📂 Project Structure
-
-```text
-digital-craft-portfolio/
-│
-├── index.html
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-└── README.md
-```
 
 ---
 
@@ -132,31 +106,6 @@ in any modern web browser.
 * Media Queries
 * Fluid Typography using clamp()
 * JavaScript DOM Manipulation
-
----
-
-## 👩‍💻 Author
-
-**Dulmini Karunarathne**
-
-Full Stack Developer
-
-📧 [dulminichamodyadc@gmail.com](mailto:dulminichamodyadc@gmail.com)
-
-💼 LinkedIn: https://linkedin.com/in/dulminikarunarathne
-
-🐙 GitHub: https://github.com/DulminiDK
-
----
-
-## ⭐ Future Improvements
-
-* Dark Mode Support
-* Project Detail Pages
-* Resume Download Feature
-* Contact Form Integration
-* Advanced Animations
-* Deployment to GitHub Pages
 
 ---
 
