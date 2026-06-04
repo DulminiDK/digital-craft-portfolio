@@ -9,13 +9,21 @@ Built following responsive web design principles using semantic HTML, CSS Grid, 
 ## 🚀 Live Features
 
 ✅ Responsive Design (Mobile, Tablet, Desktop)
+
 ✅ Mobile-First Development
+
 ✅ Semantic HTML Structure
+
 ✅ CSS Grid & Flexbox Layouts
+
 ✅ Responsive Navigation Menu
+
 ✅ Modern UI Design
+
 ✅ Smooth Scrolling Navigation
+
 ✅ Project Showcase Section
+
 ✅ Professional Experience Timeline
 
 ---
