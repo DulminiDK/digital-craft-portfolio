@@ -239,6 +239,20 @@ nav ul {
   margin-bottom: 0.75rem;
 }
 
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tech-tags span {
+  background-color: var(--secondary-color);
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
 /* =========================
    PROJECTS
 ========================= */
@@ -301,11 +315,8 @@ nav ul {
 
 .education-card {
   background: var(--white);
-
   padding: 1.5rem;
-
   border-radius: 12px;
-
   box-shadow: var(--shadow);
 }
 
@@ -327,23 +338,16 @@ nav ul {
 
 .contact-card {
   background: var(--white);
-
   padding: 1.5rem;
-
   border-radius: 12px;
-
   box-shadow: var(--shadow);
-
   text-align: center;
-
   font-weight: 600;
-
   transition: var(--transition);
 }
 
 .contact-card:hover {
   transform: translateY(-4px);
-
   background-color: var(--secondary-color);
 }
 
@@ -369,21 +373,14 @@ footer {
 
 .nav-links {
   display: none;
-
   position: absolute;
-
   top: 70px;
   left: 0;
-
   width: 100%;
-
   background-color: var(--white);
-
   flex-direction: column;
-
   padding: 1rem;
   gap: 1rem;
-
   box-shadow: var(--shadow);
 }
 
