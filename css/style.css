@@ -310,6 +310,43 @@ nav ul {
 }
 
 /* =========================
+   CERTIFICATIONS
+========================= */
+
+.certifications-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.certification-card {
+  background: var(--white);
+
+  padding: 1.5rem;
+
+  border-radius: 12px;
+
+  box-shadow: var(--shadow);
+
+  transition: var(--transition);
+}
+
+.certification-card:hover {
+  transform: translateY(-4px);
+}
+
+.certification-card p {
+  color: var(--primary-color);
+
+  font-weight: 600;
+
+  margin: 0.75rem 0;
+}
+
+.cert-skills {
+  font-size: 0.95rem;
+}
+
+/* =========================
    EDUCATION
 ========================= */
 
@@ -420,6 +457,10 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .certifications-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .contact-container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -441,5 +482,9 @@ footer {
 
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .certifications-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
